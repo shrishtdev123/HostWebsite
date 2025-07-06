@@ -18,12 +18,14 @@ const Navbar = () => {
      }
 
   return (
-    <div className='flex items-center justify-between py-5 font-medium'>
+    <div className='flex flex-col sm:flex-row items-start sm:items-center justify-between px-4 py-5 font-medium gap-y-4 bg-white'>
          
       {/* <img src={assets.logo} className='w-36' alt="" /> */}
-        <h1 class="text-xl md:text-2xl font-semibold text-blue-800 tracking-wide whitespace-nowrap overflow-hidden text-ellipsis max-w-[60%]">
+         
+         <h1 className="text-lg md:text-2xl font-bold text-blue-800 tracking-wide text-left break-words">
   STARINNIGS OVERSES PRIVATE LIMITED
 </h1>
+
 
 
 

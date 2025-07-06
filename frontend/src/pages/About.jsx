@@ -2,6 +2,7 @@ import React from 'react'
 import Title from '../components/Title'
 import { assets } from '../assets/assets'
 import NewletterBox from '../components/NewletterBox'
+import AboutCompany from '../components/AboutCompany'
 
 const About = () => {
 
@@ -18,9 +19,9 @@ const About = () => {
        <div className='my-10 flex flex-col md:flex-row gap-16'>
          <img className='w-full md:max-w-[450px] ' src={assets.about_img} alt="" />
 
-         <div className='flex flex-col  justify-center gap-6 md:w-2/4 text-gray-600'>
+         {/* <div className='flex flex-col  justify-center gap-6 md:w-2/4 text-gray-600'>
              <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius expedita suscipit repudiandae quis quaerat non dolorum recusandae atque esse, impedit obcaecati accusantium ratione aliquid soluta dicta provident consequuntur perspiciatis quidem?
+             STARINNIGS OVERSES PRIVATE LIMITED is a new and exciting presence in the clothing industry, which is often characterized by fast-changing trends. Though we are a new entrant, our brand identity is built on a foundation of passion, creativity, and a commitment to high-quality fashion that stands the test of time.
              </p>
              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia consequatur itaque autem. Ratione dolorum, sed corporis perferendis maxime beatae et, eligendi iusto, asperiores earum vitae accusamus sit inventore similique doloribus.</p>
 
@@ -28,7 +29,9 @@ const About = () => {
              <p>
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo hic ipsa optio odio possimus ipsam dicta incidunt saepe facere reprehenderit dolor corrupti tempora, expedita quam cupiditate pariatur assumenda labore aut!
              </p>
-         </div>
+         </div> */}
+
+           <AboutCompany/>
        </div>
 
        <div className='text-xl  py-4'>

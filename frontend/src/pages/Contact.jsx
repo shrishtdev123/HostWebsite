@@ -18,9 +18,10 @@ const Contact = () => {
               <div className='flex flex-col justify-center items-start gap-6'>
                 
                     <p className='font-semibold text-xl text-gray-600'>Our Store</p>
-                    <p className='text-gray-500'>54709 Greate Noida <br /> UP,Noida</p>
-                    <p className='text-gray-500'>Tel:(+91) 6306010835<br />Email:shrishtdev@gmail.com</p>
-                    <p className='font-semibold text-xl text-gray-600'>Careers at forever</p>
+                    <p className='text-gray-500'>HARSHA CITY MALL FF-105 P, SHAKTI KHAND-2, Makanpur, Ghaziabad, Ghaziabad, Uttar Pradesh, India,201014</p>
+                    <p className='text-gray-500'>Tel:(+91) 7240794868
+                             <br />Email: communication@starinnigs1.com</p>
+                    <p className='font-semibold text-xl text-gray-600'>Careers at STARINNIGS OVERSES PRIVATE LIMITED</p>
 
                     <p className='text-gray-500'>Learn more about us </p>
                     <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white'>Explore Jobs</button>
