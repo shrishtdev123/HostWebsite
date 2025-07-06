@@ -20,7 +20,12 @@ const Navbar = () => {
   return (
     <div className='flex items-center justify-between py-5 font-medium'>
          
-      <img src={assets.logo} className='w-36' alt="" />
+      {/* <img src={assets.logo} className='w-36' alt="" /> */}
+        <h1 class="text-xl md:text-2xl font-semibold text-blue-800 tracking-wide whitespace-nowrap overflow-hidden text-ellipsis max-w-[60%]">
+  STARINNIGS OVERSES PRIVATE LIMITED
+</h1>
+
+
 
        <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>
             <NavLink to="/" className="flex flex-col items-center gap-1">
