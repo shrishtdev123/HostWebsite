@@ -17,11 +17,11 @@ const About = () => {
        </div>
 
        <div className="my-10 flex flex-col md:flex-row items-center gap-16 px-4">
-  <img
+  {/* <img
     src={assets.about_img}
     alt="About AMBA HOMES"
     className="w-full max-w-[450px] object-cover rounded-lg shadow-md"
-  />
+  /> */}
 
   {/* About text section */}
   <AboutCompany />
